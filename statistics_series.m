@@ -1,0 +1,7 @@
+function [l,m,vr,sd,mx,mn]=statistics_series(x)
+l=length(x)
+m=mean(x)
+vr=var(x)
+sd=std(x)
+mx=max(x)
+mn=min(x)
